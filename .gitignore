@@ -88,4 +88,4 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
-ZegoUIKitPrebuiltLiveStreaming/Pods/
+live_streaming/ZegoUIKitPrebuiltLiveStreaming/Pods/
