@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86F0955828B3679F00660B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F0955728B3679F00660B31 /* AppDelegate.swift */; };
+		86F0955A28B3679F00660B31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F0955928B3679F00660B31 /* SceneDelegate.swift */; };
+		86F0955C28B3679F00660B31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F0955B28B3679F00660B31 /* ViewController.swift */; };
+		86F0955F28B3679F00660B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F0955D28B3679F00660B31 /* Main.storyboard */; };
+		86F0956128B367A000660B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F0956028B367A000660B31 /* Assets.xcassets */; };
+		86F0956428B367A000660B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F0956228B367A000660B31 /* LaunchScreen.storyboard */; };
+		9470CC48C9A2A30EB2244A16 /* Pods_ZegoUIKitPrebuiltLiveStreaming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E115B816C49CF91470A8DD /* Pods_ZegoUIKitPrebuiltLiveStreaming.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		861A153928C7208300839533 /* ZegoUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZegoUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		861A153D28C7230F00839533 /* ZegoUIKitSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZegoUIKitSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		861A154328C7290600839533 /* ZegoUIKitSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZegoUIKitSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F0955428B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZegoUIKitPrebuiltLiveStreaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F0955728B3679F00660B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86F0955928B3679F00660B31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86F0955B28B3679F00660B31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86F0955E28B3679F00660B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86F0956028B367A000660B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86F0956328B367A000660B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86F0956528B367A000660B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F0956B28B368F800660B31 /* ZegoUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZegoUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E115B816C49CF91470A8DD /* Pods_ZegoUIKitPrebuiltLiveStreaming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZegoUIKitPrebuiltLiveStreaming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98271D85976F697A85E1EA2E /* Pods-ZegoUIKitPrebuiltLiveStreaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZegoUIKitPrebuiltLiveStreaming.release.xcconfig"; path = "Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreaming/Pods-ZegoUIKitPrebuiltLiveStreaming.release.xcconfig"; sourceTree = "<group>"; };
+		D75154F764C14811410DAA90 /* Pods-ZegoUIKitPrebuiltLiveStreaming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZegoUIKitPrebuiltLiveStreaming.debug.xcconfig"; path = "Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreaming/Pods-ZegoUIKitPrebuiltLiveStreaming.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86F0955128B3679F00660B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9470CC48C9A2A30EB2244A16 /* Pods_ZegoUIKitPrebuiltLiveStreaming.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		798931D60E048B83A7F7A753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				861A154328C7290600839533 /* ZegoUIKitSDK.framework */,
+				861A153D28C7230F00839533 /* ZegoUIKitSDK.framework */,
+				861A153928C7208300839533 /* ZegoUIKit.framework */,
+				86F0956B28B368F800660B31 /* ZegoUIKit.framework */,
+				93E115B816C49CF91470A8DD /* Pods_ZegoUIKitPrebuiltLiveStreaming.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86F0954B28B3679F00660B31 = {
+			isa = PBXGroup;
+			children = (
+				86F0955628B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming */,
+				86F0955528B3679F00660B31 /* Products */,
+				B57AB54E19475E740BC08862 /* Pods */,
+				798931D60E048B83A7F7A753 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86F0955528B3679F00660B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86F0955428B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86F0955628B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming */ = {
+			isa = PBXGroup;
+			children = (
+				86F0955728B3679F00660B31 /* AppDelegate.swift */,
+				86F0955928B3679F00660B31 /* SceneDelegate.swift */,
+				86F0955B28B3679F00660B31 /* ViewController.swift */,
+				86F0955D28B3679F00660B31 /* Main.storyboard */,
+				86F0956028B367A000660B31 /* Assets.xcassets */,
+				86F0956228B367A000660B31 /* LaunchScreen.storyboard */,
+				86F0956528B367A000660B31 /* Info.plist */,
+			);
+			path = ZegoUIKitPrebuiltLiveStreaming;
+			sourceTree = "<group>";
+		};
+		B57AB54E19475E740BC08862 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D75154F764C14811410DAA90 /* Pods-ZegoUIKitPrebuiltLiveStreaming.debug.xcconfig */,
+				98271D85976F697A85E1EA2E /* Pods-ZegoUIKitPrebuiltLiveStreaming.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86F0955328B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F0956828B367A000660B31 /* Build configuration list for PBXNativeTarget "ZegoUIKitPrebuiltLiveStreaming" */;
+			buildPhases = (
+				F6D705496820B03DCDF02763 /* [CP] Check Pods Manifest.lock */,
+				86F0955028B3679F00660B31 /* Sources */,
+				86F0955128B3679F00660B31 /* Frameworks */,
+				86F0955228B3679F00660B31 /* Resources */,
+				79C27004240970BC725E6079 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZegoUIKitPrebuiltLiveStreaming;
+			productName = ZegoUIKitPrebuiltLiveStreaming;
+			productReference = 86F0955428B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86F0954C28B3679F00660B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					86F0955328B3679F00660B31 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 86F0954F28B3679F00660B31 /* Build configuration list for PBXProject "ZegoUIKitPrebuiltLiveStreaming" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86F0954B28B3679F00660B31;
+			productRefGroup = 86F0955528B3679F00660B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86F0955328B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86F0955228B3679F00660B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F0956428B367A000660B31 /* LaunchScreen.storyboard in Resources */,
+				86F0956128B367A000660B31 /* Assets.xcassets in Resources */,
+				86F0955F28B3679F00660B31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79C27004240970BC725E6079 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreaming/Pods-ZegoUIKitPrebuiltLiveStreaming-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreaming/Pods-ZegoUIKitPrebuiltLiveStreaming-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreaming/Pods-ZegoUIKitPrebuiltLiveStreaming-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D705496820B03DCDF02763 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZegoUIKitPrebuiltLiveStreaming-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86F0955028B3679F00660B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F0955C28B3679F00660B31 /* ViewController.swift in Sources */,
+				86F0955828B3679F00660B31 /* AppDelegate.swift in Sources */,
+				86F0955A28B3679F00660B31 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86F0955D28B3679F00660B31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F0955E28B3679F00660B31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86F0956228B367A000660B31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F0956328B367A000660B31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86F0956628B367A000660B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86F0956728B367A000660B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86F0956928B367A000660B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75154F764C14811410DAA90 /* Pods-ZegoUIKitPrebuiltLiveStreaming.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = B82BHJ5H89;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZegoUIKitPrebuiltLiveStreaming/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use your camera to help you join the live interaction.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need to use your mic to help you join the live interaction.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = im.zego.liveStreamPrebuilt.ZegoUIKitPrebuiltLiveStreaming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86F0956A28B367A000660B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98271D85976F697A85E1EA2E /* Pods-ZegoUIKitPrebuiltLiveStreaming.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = B82BHJ5H89;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZegoUIKitPrebuiltLiveStreaming/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use your camera to help you join the live interaction.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need to use your mic to help you join the live interaction.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = im.zego.liveStreamPrebuilt.ZegoUIKitPrebuiltLiveStreaming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86F0954F28B3679F00660B31 /* Build configuration list for PBXProject "ZegoUIKitPrebuiltLiveStreaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F0956628B367A000660B31 /* Debug */,
+				86F0956728B367A000660B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F0956828B367A000660B31 /* Build configuration list for PBXNativeTarget "ZegoUIKitPrebuiltLiveStreaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F0956928B367A000660B31 /* Debug */,
+				86F0956A28B367A000660B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86F0954C28B3679F00660B31 /* Project object */;
+}
