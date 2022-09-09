@@ -48,4 +48,4 @@ Audience:
   [Custom Prebuilt UI](https://docs.zegocloud.com/article/14876)
 
 - To finest-grained build a livestream, you may try antoher one:
-  [Live Streaming SDK](https://docs.zegocloud.com/article/7926
+  [Live Streaming SDK](https://docs.zegocloud.com/article/7926)
