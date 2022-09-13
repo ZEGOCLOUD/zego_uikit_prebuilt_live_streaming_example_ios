@@ -13,14 +13,16 @@
 		86F0955F28B3679F00660B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F0955D28B3679F00660B31 /* Main.storyboard */; };
 		86F0956128B367A000660B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F0956028B367A000660B31 /* Assets.xcassets */; };
 		86F0956428B367A000660B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F0956228B367A000660B31 /* LaunchScreen.storyboard */; };
-		9470CC48C9A2A30EB2244A16 /* Pods_ZegoUIKitPrebuiltLiveStreaming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E115B816C49CF91470A8DD /* Pods_ZegoUIKitPrebuiltLiveStreaming.framework */; };
+		C865CF0FB590FF0A857584CA /* Pods_ZegoUIKitPrebuiltLiveStreamingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA740A4FDFE145DE140E8E9 /* Pods_ZegoUIKitPrebuiltLiveStreamingDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BA740A4FDFE145DE140E8E9 /* Pods_ZegoUIKitPrebuiltLiveStreamingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZegoUIKitPrebuiltLiveStreamingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F991D37EFC64A048ADB6AD /* Pods-ZegoUIKitPrebuiltLiveStreamingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZegoUIKitPrebuiltLiveStreamingDemo.release.xcconfig"; path = "Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreamingDemo/Pods-ZegoUIKitPrebuiltLiveStreamingDemo.release.xcconfig"; sourceTree = "<group>"; };
 		861A153928C7208300839533 /* ZegoUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZegoUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		861A153D28C7230F00839533 /* ZegoUIKitSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZegoUIKitSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		861A154328C7290600839533 /* ZegoUIKitSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZegoUIKitSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86F0955428B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZegoUIKitPrebuiltLiveStreaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F0955428B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreamingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZegoUIKitPrebuiltLiveStreamingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F0955728B3679F00660B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86F0955928B3679F00660B31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		86F0955B28B3679F00660B31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,9 +31,9 @@
 		86F0956328B367A000660B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86F0956528B367A000660B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86F0956B28B368F800660B31 /* ZegoUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZegoUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93E115B816C49CF91470A8DD /* Pods_ZegoUIKitPrebuiltLiveStreaming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZegoUIKitPrebuiltLiveStreaming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98271D85976F697A85E1EA2E /* Pods-ZegoUIKitPrebuiltLiveStreaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZegoUIKitPrebuiltLiveStreaming.release.xcconfig"; path = "Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreaming/Pods-ZegoUIKitPrebuiltLiveStreaming.release.xcconfig"; sourceTree = "<group>"; };
 		D75154F764C14811410DAA90 /* Pods-ZegoUIKitPrebuiltLiveStreaming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZegoUIKitPrebuiltLiveStreaming.debug.xcconfig"; path = "Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreaming/Pods-ZegoUIKitPrebuiltLiveStreaming.debug.xcconfig"; sourceTree = "<group>"; };
+		FD852620222E41826C7D9CEF /* Pods-ZegoUIKitPrebuiltLiveStreamingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZegoUIKitPrebuiltLiveStreamingDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreamingDemo/Pods-ZegoUIKitPrebuiltLiveStreamingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9470CC48C9A2A30EB2244A16 /* Pods_ZegoUIKitPrebuiltLiveStreaming.framework in Frameworks */,
+				C865CF0FB590FF0A857584CA /* Pods_ZegoUIKitPrebuiltLiveStreamingDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +55,7 @@
 				861A153D28C7230F00839533 /* ZegoUIKitSDK.framework */,
 				861A153928C7208300839533 /* ZegoUIKit.framework */,
 				86F0956B28B368F800660B31 /* ZegoUIKit.framework */,
-				93E115B816C49CF91470A8DD /* Pods_ZegoUIKitPrebuiltLiveStreaming.framework */,
+				5BA740A4FDFE145DE140E8E9 /* Pods_ZegoUIKitPrebuiltLiveStreamingDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -61,7 +63,7 @@
 		86F0954B28B3679F00660B31 = {
 			isa = PBXGroup;
 			children = (
-				86F0955628B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming */,
+				86F0955628B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreamingDemo */,
 				86F0955528B3679F00660B31 /* Products */,
 				B57AB54E19475E740BC08862 /* Pods */,
 				798931D60E048B83A7F7A753 /* Frameworks */,
@@ -71,12 +73,12 @@
 		86F0955528B3679F00660B31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86F0955428B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming.app */,
+				86F0955428B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreamingDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		86F0955628B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming */ = {
+		86F0955628B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreamingDemo */ = {
 			isa = PBXGroup;
 			children = (
 				86F0955728B3679F00660B31 /* AppDelegate.swift */,
@@ -87,7 +89,7 @@
 				86F0956228B367A000660B31 /* LaunchScreen.storyboard */,
 				86F0956528B367A000660B31 /* Info.plist */,
 			);
-			path = ZegoUIKitPrebuiltLiveStreaming;
+			path = ZegoUIKitPrebuiltLiveStreamingDemo;
 			sourceTree = "<group>";
 		};
 		B57AB54E19475E740BC08862 /* Pods */ = {
@@ -95,6 +97,8 @@
 			children = (
 				D75154F764C14811410DAA90 /* Pods-ZegoUIKitPrebuiltLiveStreaming.debug.xcconfig */,
 				98271D85976F697A85E1EA2E /* Pods-ZegoUIKitPrebuiltLiveStreaming.release.xcconfig */,
+				FD852620222E41826C7D9CEF /* Pods-ZegoUIKitPrebuiltLiveStreamingDemo.debug.xcconfig */,
+				60F991D37EFC64A048ADB6AD /* Pods-ZegoUIKitPrebuiltLiveStreamingDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -102,23 +106,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		86F0955328B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming */ = {
+		86F0955328B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreamingDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86F0956828B367A000660B31 /* Build configuration list for PBXNativeTarget "ZegoUIKitPrebuiltLiveStreaming" */;
+			buildConfigurationList = 86F0956828B367A000660B31 /* Build configuration list for PBXNativeTarget "ZegoUIKitPrebuiltLiveStreamingDemo" */;
 			buildPhases = (
 				F6D705496820B03DCDF02763 /* [CP] Check Pods Manifest.lock */,
 				86F0955028B3679F00660B31 /* Sources */,
 				86F0955128B3679F00660B31 /* Frameworks */,
 				86F0955228B3679F00660B31 /* Resources */,
-				79C27004240970BC725E6079 /* [CP] Embed Pods Frameworks */,
+				93FAFDE2043EB14E74F104B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ZegoUIKitPrebuiltLiveStreaming;
-			productName = ZegoUIKitPrebuiltLiveStreaming;
-			productReference = 86F0955428B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming.app */;
+			name = ZegoUIKitPrebuiltLiveStreamingDemo;
+			productName = ZegoUIKitPrebuiltLiveStreamingDemo;
+			productReference = 86F0955428B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreamingDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 86F0954F28B3679F00660B31 /* Build configuration list for PBXProject "ZegoUIKitPrebuiltLiveStreaming" */;
+			buildConfigurationList = 86F0954F28B3679F00660B31 /* Build configuration list for PBXProject "ZegoUIKitPrebuiltLiveStreamingDemo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				86F0955328B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreaming */,
+				86F0955328B3679F00660B31 /* ZegoUIKitPrebuiltLiveStreamingDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -168,21 +172,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		79C27004240970BC725E6079 /* [CP] Embed Pods Frameworks */ = {
+		93FAFDE2043EB14E74F104B8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreaming/Pods-ZegoUIKitPrebuiltLiveStreaming-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreamingDemo/Pods-ZegoUIKitPrebuiltLiveStreamingDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreaming/Pods-ZegoUIKitPrebuiltLiveStreaming-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreamingDemo/Pods-ZegoUIKitPrebuiltLiveStreamingDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreaming/Pods-ZegoUIKitPrebuiltLiveStreaming-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreamingDemo/Pods-ZegoUIKitPrebuiltLiveStreamingDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6D705496820B03DCDF02763 /* [CP] Check Pods Manifest.lock */ = {
@@ -200,7 +204,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZegoUIKitPrebuiltLiveStreaming-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ZegoUIKitPrebuiltLiveStreamingDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -360,7 +364,7 @@
 		};
 		86F0956928B367A000660B31 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D75154F764C14811410DAA90 /* Pods-ZegoUIKitPrebuiltLiveStreaming.debug.xcconfig */;
+			baseConfigurationReference = FD852620222E41826C7D9CEF /* Pods-ZegoUIKitPrebuiltLiveStreamingDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -368,7 +372,7 @@
 				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = B82BHJ5H89;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ZegoUIKitPrebuiltLiveStreaming/Info.plist;
+				INFOPLIST_FILE = ZegoUIKitPrebuiltLiveStreamingDemo/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use your camera to help you join the live interaction.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need to use your mic to help you join the live interaction.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -393,7 +397,7 @@
 		};
 		86F0956A28B367A000660B31 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98271D85976F697A85E1EA2E /* Pods-ZegoUIKitPrebuiltLiveStreaming.release.xcconfig */;
+			baseConfigurationReference = 60F991D37EFC64A048ADB6AD /* Pods-ZegoUIKitPrebuiltLiveStreamingDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -401,7 +405,7 @@
 				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = B82BHJ5H89;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ZegoUIKitPrebuiltLiveStreaming/Info.plist;
+				INFOPLIST_FILE = ZegoUIKitPrebuiltLiveStreamingDemo/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use your camera to help you join the live interaction.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need to use your mic to help you join the live interaction.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -427,7 +431,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86F0954F28B3679F00660B31 /* Build configuration list for PBXProject "ZegoUIKitPrebuiltLiveStreaming" */ = {
+		86F0954F28B3679F00660B31 /* Build configuration list for PBXProject "ZegoUIKitPrebuiltLiveStreamingDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86F0956628B367A000660B31 /* Debug */,
@@ -436,7 +440,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86F0956828B367A000660B31 /* Build configuration list for PBXNativeTarget "ZegoUIKitPrebuiltLiveStreaming" */ = {
+		86F0956828B367A000660B31 /* Build configuration list for PBXNativeTarget "ZegoUIKitPrebuiltLiveStreamingDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86F0956928B367A000660B31 /* Debug */,
