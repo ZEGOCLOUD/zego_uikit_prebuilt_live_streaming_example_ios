@@ -8,6 +8,7 @@
 import UIKit
 import ZegoUIKitSDK
 import ZegoUIKitPrebuiltLiveStreaming
+import ZegoUIKitSignalingPlugin
 
 class ViewController: UIViewController {
     
@@ -32,14 +33,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func startLive(_ sender: Any) {
-        let config: ZegoUIKitPrebuiltLiveStreamingConfig = ZegoUIKitPrebuiltLiveStreamingConfig(kRoleHost)
+        let config: ZegoUIKitPrebuiltLiveStreamingConfig = ZegoUIKitPrebuiltLiveStreamingConfig.host([ZegoUIKitSignalingPlugin()])
+        config.plugins = [ZegoUIKitSignalingPlugin()]
         let liveVC: ZegoUIKitPrebuiltLiveStreamingVC = ZegoUIKitPrebuiltLiveStreamingVC(self.appID, appSign: self.appSign, userID: self.userID, userName: self.userName ?? "", liveID: self.roomIDTextField.text ?? "", config: config)
         liveVC.modalPresentationStyle = .fullScreen
         self.present(liveVC, animated: true, completion: nil)
     }
     
     @IBAction func watchLive(_ sender: Any) {
-        let config: ZegoUIKitPrebuiltLiveStreamingConfig = ZegoUIKitPrebuiltLiveStreamingConfig(kRoleAudience)
+        let config: ZegoUIKitPrebuiltLiveStreamingConfig = ZegoUIKitPrebuiltLiveStreamingConfig.audience([ZegoUIKitSignalingPlugin()])
         let liveVC: ZegoUIKitPrebuiltLiveStreamingVC = ZegoUIKitPrebuiltLiveStreamingVC(self.appID, appSign: self.appSign, userID: self.userID, userName: self.userName ?? "", liveID: self.roomIDTextField.text ?? "", config: config)
         liveVC.modalPresentationStyle = .fullScreen
         self.present(liveVC, animated: true, completion: nil)
