@@ -89,3 +89,4 @@ fastlane/test_output
 
 iOSInjectionProject/
 live_streaming/ZegoUIKitPrebuiltLiveStreaming/Pods/
+live_streaming_with_cohosting/ZegoUIKitPrebuiltLiveStreamingWithCoHost/Pods/
