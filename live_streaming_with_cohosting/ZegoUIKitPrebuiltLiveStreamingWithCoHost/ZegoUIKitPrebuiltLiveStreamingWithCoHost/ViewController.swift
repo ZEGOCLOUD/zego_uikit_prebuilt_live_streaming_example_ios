@@ -33,7 +33,6 @@ class ViewController: UIViewController {
 
     @IBAction func startLiveButtonClick(_ sender: Any) {
         let config: ZegoUIKitPrebuiltLiveStreamingConfig = ZegoUIKitPrebuiltLiveStreamingConfig.host([ZegoUIKitSignalingPlugin()])
-        config.plugins = [ZegoUIKitSignalingPlugin()]
         let liveVC: ZegoUIKitPrebuiltLiveStreamingVC = ZegoUIKitPrebuiltLiveStreamingVC(self.appID, appSign: self.appSign, userID: self.userID, userName: self.userName ?? "", liveID: self.liveIDTextField.text ?? "", config: config)
         liveVC.modalPresentationStyle = .fullScreen
         self.present(liveVC, animated: true, completion: nil)
