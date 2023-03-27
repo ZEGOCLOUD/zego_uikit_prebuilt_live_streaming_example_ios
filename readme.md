@@ -3,6 +3,9 @@
 - - -
 
 
+> If you have any questions regarding bugs and feature requests, visit the [ZEGOCLOUD community](https://discord.gg/EtNRATttyp).
+
+
 **Live Streaming Kit** is a feature-rich livestream component, which enables you to build custom live streaming into your apps with only a few lines of code. And you can also customize various live streaming features by configuring parameters.
 
 
