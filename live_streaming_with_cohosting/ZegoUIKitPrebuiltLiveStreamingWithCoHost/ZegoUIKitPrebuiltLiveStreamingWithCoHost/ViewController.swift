@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import ZegoUIKitSDK
+import ZegoUIKit
 import ZegoUIKitPrebuiltLiveStreaming
 import ZegoUIKitSignalingPlugin
 
@@ -34,6 +34,7 @@ class ViewController: UIViewController {
             }
         }
     }
+    
     var useVideoAspectFill: Bool = true {
         didSet {
             if useVideoAspectFill {

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import ZegoUIKitSDK
+import ZegoUIKit
 import ZegoUIKitPrebuiltLiveStreaming
 
 class ViewController: UIViewController {

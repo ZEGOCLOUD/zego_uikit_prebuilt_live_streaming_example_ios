@@ -8,6 +8,7 @@ target 'ZegoUIKitPrebuiltLiveStreamingWithCoHost' do
   # Pods for ZegoUIKitPrebuiltLiveStreamingWithCoHost
   pod 'ZegoUIKitPrebuiltLiveStreaming'
   pod 'ZegoUIKitSignalingPlugin'
+  pod 'ZegoUIKit'
 
 
 end
