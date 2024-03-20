@@ -46,7 +46,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func startLiveClick(_ sender: Any) {
-        let config: ZegoUIKitPrebuiltLiveStreamingConfig = ZegoUIKitPrebuiltLiveStreamingConfig.host(enableCoHosting: true)
+        let config: ZegoUIKitPrebuiltLiveStreamingConfig = ZegoUIKitPrebuiltLiveStreamingConfig.host(enableSignalingPlugin: true)
         let liveVC: ZegoUIKitPrebuiltLiveStreamingVC = ZegoUIKitPrebuiltLiveStreamingVC(self.appID, appSign: self.appSign, userID: self.userID ?? "", userName: self.userName ?? "", liveID: self.liveIDTextField.text ?? "", config: config)
         uikitLiveVC = liveVC
         liveVC.modalPresentationStyle = .fullScreen
@@ -69,7 +69,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func watchLiveClick(_ sender: Any) {
-        let config: ZegoUIKitPrebuiltLiveStreamingConfig = ZegoUIKitPrebuiltLiveStreamingConfig.audience(enableCoHosting: true)
+        let config: ZegoUIKitPrebuiltLiveStreamingConfig = ZegoUIKitPrebuiltLiveStreamingConfig.audience(enableSignalingPlugin: true)
         let liveVC: ZegoUIKitPrebuiltLiveStreamingVC = ZegoUIKitPrebuiltLiveStreamingVC(self.appID, appSign: self.appSign, userID: self.userID ?? "", userName: self.userName ?? "", liveID: self.liveIDTextField.text ?? "", config: config)
         liveVC.modalPresentationStyle = .fullScreen
         liveVC.delegate = self
