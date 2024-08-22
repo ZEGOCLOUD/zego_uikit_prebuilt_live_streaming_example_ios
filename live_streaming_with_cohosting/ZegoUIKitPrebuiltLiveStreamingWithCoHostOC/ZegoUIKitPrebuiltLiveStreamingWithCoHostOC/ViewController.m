@@ -29,8 +29,8 @@
   [super viewDidLoad];
   self.userID = [NSString stringWithFormat:@"%u",arc4random() % 99999];
   self.userName = [NSString stringWithFormat:@"name_%@",self.userID];
-//  self.appID = <#appID#>;
-//  self.appSign = @"<#appSign#>";
+  self.appID = <#APPID#>;
+  self.appSign = @"<#APPSIGN#>";
   self.roomIDTextField.text = [NSString stringWithFormat:@"%u",arc4random() % 99999];
 }
 
@@ -40,10 +40,9 @@
   ZegoPrebuiltAudioVideoViewConfig * audioVideoViewConfig = [[ZegoPrebuiltAudioVideoViewConfig alloc] init];
   audioVideoViewConfig.useVideoViewAspectFill = self.aspectFillSwitch.on;
   config.audioVideoViewConfig = audioVideoViewConfig;
-  
+  config.enableCoHosting = YES;
   ZegoUIKitPrebuiltLiveStreamingVC * vc = [[ZegoUIKitPrebuiltLiveStreamingVC alloc] init:self.appID appSign:self.appSign userID:self.userID userName:self.userName liveID:self.roomIDTextField.text config:config];
   vc.delegate = self;
-  [vc addButtonToBottomMenuBar:[UIButton buttonWithType:UIButtonTypeSystem] role:ZegoLiveStreamingRoleHost];
   vc.modalPresentationStyle = UIModalPresentationFullScreen;
   [self presentViewController:vc animated:YES completion:^{
     
@@ -56,9 +55,9 @@
   ZegoPrebuiltAudioVideoViewConfig * audioVideoViewConfig = [[ZegoPrebuiltAudioVideoViewConfig alloc] init];
   audioVideoViewConfig.useVideoViewAspectFill = self.aspectFillSwitch.on;
   config.audioVideoViewConfig = audioVideoViewConfig;
+  config.enableCoHosting = YES;
   ZegoUIKitPrebuiltLiveStreamingVC * vc = [[ZegoUIKitPrebuiltLiveStreamingVC alloc] init:self.appID appSign:self.appSign userID:self.userID userName:self.userName liveID:self.roomIDTextField.text config:config];
   vc.delegate = self;
-  [vc addButtonToBottomMenuBar:[UIButton buttonWithType:UIButtonTypeSystem] role:ZegoLiveStreamingRoleHost];
   vc.modalPresentationStyle = UIModalPresentationFullScreen;
   [self presentViewController:vc animated:YES completion:^{
     

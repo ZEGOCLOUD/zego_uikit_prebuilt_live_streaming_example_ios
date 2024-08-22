@@ -56,6 +56,7 @@ class ViewController: UIViewController {
         let audioVideoConfig = ZegoPrebuiltAudioVideoViewConfig()
         audioVideoConfig.useVideoViewAspectFill = useVideoAspectFill
         config.audioVideoViewConfig = audioVideoConfig
+        config.enableCoHosting = true
         let liveVC: ZegoUIKitPrebuiltLiveStreamingVC = ZegoUIKitPrebuiltLiveStreamingVC(self.appID, appSign: self.appSign, userID: self.userID, userName: self.userName ?? "", liveID: self.liveIDTextField.text ?? "", config: config)
         liveVC.modalPresentationStyle = .fullScreen
         self.present(liveVC, animated: true, completion: nil)
@@ -66,6 +67,7 @@ class ViewController: UIViewController {
         let audioVideoConfig = ZegoPrebuiltAudioVideoViewConfig()
         audioVideoConfig.useVideoViewAspectFill = useVideoAspectFill
         config.audioVideoViewConfig = audioVideoConfig
+        config.enableCoHosting = true
         let liveVC: ZegoUIKitPrebuiltLiveStreamingVC = ZegoUIKitPrebuiltLiveStreamingVC(self.appID, appSign: self.appSign, userID: self.userID, userName: self.userName ?? "", liveID: self.liveIDTextField.text ?? "", config: config)
         liveVC.modalPresentationStyle = .fullScreen
         self.present(liveVC, animated: true, completion: nil)
