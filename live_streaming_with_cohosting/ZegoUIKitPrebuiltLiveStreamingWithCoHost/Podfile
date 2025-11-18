@@ -6,10 +6,8 @@ target 'ZegoUIKitPrebuiltLiveStreamingWithCoHost' do
   use_frameworks!
 
   # Pods for ZegoUIKitPrebuiltLiveStreamingWithCoHost
-  pod 'ZegoUIKitPrebuiltLiveStreaming'
+  pod 'ZegoUIKitPrebuiltLiveStreaming', '>= 3.0.0'
   pod 'ZegoUIKitSignalingPlugin'
-  pod 'ZegoUIKit'
-
 
 end
 

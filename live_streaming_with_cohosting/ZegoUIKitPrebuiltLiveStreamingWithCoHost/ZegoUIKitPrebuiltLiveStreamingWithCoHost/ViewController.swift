@@ -49,8 +49,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func startLiveButtonClick(_ sender: Any) {
-        let config: ZegoUIKitPrebuiltLiveStreamingConfig = ZegoUIKitPrebuiltLiveStreamingConfig.host(enableSignalingPlugin: true)
-        let audioVideoConfig = ZegoPrebuiltAudioVideoViewConfig()
+        let config = ZegoUIKitPrebuiltLiveStreamingConfig.host(enableSignalingPlugin: true)
+        let audioVideoConfig = ZegoLiveStreamingAudioVideoViewConfig()
         audioVideoConfig.useVideoViewAspectFill = useVideoAspectFill
         config.audioVideoViewConfig = audioVideoConfig
         config.enableCoHosting = true
@@ -60,8 +60,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func watchLiveButtonClick(_ sender: Any) {
-        let config: ZegoUIKitPrebuiltLiveStreamingConfig = ZegoUIKitPrebuiltLiveStreamingConfig.audience(enableSignalingPlugin: true)
-        let audioVideoConfig = ZegoPrebuiltAudioVideoViewConfig()
+        let config = ZegoUIKitPrebuiltLiveStreamingConfig.audience(enableSignalingPlugin: true)
+        let audioVideoConfig = ZegoLiveStreamingAudioVideoViewConfig()
         audioVideoConfig.useVideoViewAspectFill = useVideoAspectFill
         config.audioVideoViewConfig = audioVideoConfig
         config.enableCoHosting = true
