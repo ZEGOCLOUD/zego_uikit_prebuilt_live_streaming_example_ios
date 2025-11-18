@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36A6E4EB2ECC625C00811224 /* KeyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A6E4EA2ECC625C00811224 /* KeyCenter.swift */; };
 		8608091F292C7C6800387685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8608091E292C7C6800387685 /* AppDelegate.swift */; };
 		86080921292C7C6800387685 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86080920292C7C6800387685 /* SceneDelegate.swift */; };
 		86080923292C7C6800387685 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86080922292C7C6800387685 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36A6E4EA2ECC625C00811224 /* KeyCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCenter.swift; sourceTree = "<group>"; };
 		3DB3B33FEF062ECF97A7B18F /* Pods-ZegoUIKitPrebuiltLiveStreamingWithCoHost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZegoUIKitPrebuiltLiveStreamingWithCoHost.debug.xcconfig"; path = "Target Support Files/Pods-ZegoUIKitPrebuiltLiveStreamingWithCoHost/Pods-ZegoUIKitPrebuiltLiveStreamingWithCoHost.debug.xcconfig"; sourceTree = "<group>"; };
 		8608091B292C7C6800387685 /* ZegoUIKitPrebuiltLiveStreamingWithCoHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZegoUIKitPrebuiltLiveStreamingWithCoHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8608091E292C7C6800387685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		8608091D292C7C6800387685 /* ZegoUIKitPrebuiltLiveStreamingWithCoHost */ = {
 			isa = PBXGroup;
 			children = (
+				36A6E4EA2ECC625C00811224 /* KeyCenter.swift */,
 				8608091E292C7C6800387685 /* AppDelegate.swift */,
 				86080920292C7C6800387685 /* SceneDelegate.swift */,
 				86080922292C7C6800387685 /* ViewController.swift */,
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A6E4EB2ECC625C00811224 /* KeyCenter.swift in Sources */,
 				86080923292C7C6800387685 /* ViewController.swift in Sources */,
 				8608091F292C7C6800387685 /* AppDelegate.swift in Sources */,
 				86080921292C7C6800387685 /* SceneDelegate.swift in Sources */,

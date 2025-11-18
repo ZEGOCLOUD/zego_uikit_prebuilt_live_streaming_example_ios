@@ -12,9 +12,6 @@ import ZegoUIKitSignalingPlugin
 
 class ViewController: UIViewController {
     
-    let appID: UInt32 = <#YourAppID#>
-    let appSign: String = <#YourAppSign#>
-    
     let userID: String = String(format: "%d", arc4random() % 999999)
     var userName: String?
     
@@ -57,7 +54,7 @@ class ViewController: UIViewController {
         audioVideoConfig.useVideoViewAspectFill = useVideoAspectFill
         config.audioVideoViewConfig = audioVideoConfig
         config.enableCoHosting = true
-        let liveVC: ZegoUIKitPrebuiltLiveStreamingVC = ZegoUIKitPrebuiltLiveStreamingVC(self.appID, appSign: self.appSign, userID: self.userID, userName: self.userName ?? "", liveID: self.liveIDTextField.text ?? "", config: config)
+        let liveVC = ZegoUIKitPrebuiltLiveStreamingVC(KeyCenter.appID, appSign: KeyCenter.appSign, userID: self.userID, userName: self.userName ?? "", liveID: self.liveIDTextField.text ?? "", config: config)
         liveVC.modalPresentationStyle = .fullScreen
         self.present(liveVC, animated: true, completion: nil)
     }
@@ -68,7 +65,7 @@ class ViewController: UIViewController {
         audioVideoConfig.useVideoViewAspectFill = useVideoAspectFill
         config.audioVideoViewConfig = audioVideoConfig
         config.enableCoHosting = true
-        let liveVC: ZegoUIKitPrebuiltLiveStreamingVC = ZegoUIKitPrebuiltLiveStreamingVC(self.appID, appSign: self.appSign, userID: self.userID, userName: self.userName ?? "", liveID: self.liveIDTextField.text ?? "", config: config)
+        let liveVC = ZegoUIKitPrebuiltLiveStreamingVC(KeyCenter.appID, appSign: KeyCenter.appSign, userID: self.userID, userName: self.userName ?? "", liveID: self.liveIDTextField.text ?? "", config: config)
         liveVC.modalPresentationStyle = .fullScreen
         self.present(liveVC, animated: true, completion: nil)
     }
